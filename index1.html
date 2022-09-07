@@ -38,9 +38,30 @@
         .mydiv {
             background-image: url(./OIP.jpg);
             width: auto;
-            height:600px;
-            background-attachment:fixed;
+            height: 600px;
+            background-attachment: fixed;
+        }
 
+        .ex span {
+            color: inherit;
+        }
+
+        span {
+            color: aqua;
+        }
+
+        .margin {
+            display: block;
+            margin: auto;
+            width: fit-content;
+
+        }
+
+        .border-box {
+            width: 300px;
+            padding: 100px;
+            box-sizing: border-box;
+            background-color: bisque;
 
         }
     </style>
@@ -55,9 +76,10 @@
     <div>
         <h1 style="color:orangered;">Hello world</h1>
         <p style="color:violet">It is a paragraph janasena fill it yyour self</p>
-        <h1 class="border">Peru</h1>
-        <h1 class="border" style="border:2px solid dodgerblue">Peru</h1>
-        <h1 class="border" style="border:2px solid violet">Peru</h1>
+        <h1 class="border" style="border-style:ridge ;">Peru</h1>
+        <h1 class="border" style="border:2px solid dodgerblue;border-style: dashed;border-radius:6px;">Peru</h1>
+        <h1 class="border" style="border:2px solid violet;border-style: dotted; border-width:thick;">Peru</h1>
+        <h1 class="border" style="border:5px dotted green">Hari #single line</h1>
         <h1 style="color:rgba(255,99,71,0.5)">Janasena</h1>
         <h1 style="color:hsl(147,50%,47%)">Peru</h1>
         <h1 style="color:hsl(300,50%,72%)">Mall</h1>
@@ -66,14 +88,40 @@
         <h1 class="h1">hari</h1>
     </div>
     <div class="mydiv">
-        <h1 style="color:orange;">It implies measurement of accomplishment against the standards and correction of deviation if 
-            any to ensure achievement of organisational goals. The purpose of controlling is to ensure that 
-            everything occurs in conformities with the standards. An efficient system of control helps to 
-            predict deviations before they actually occur.. According to Koontz & O’Donell “Controlling is 
-            the measurement & correction of performance activities of subordinates in order to make sure 
-            that the enterprise objectives and plans desired to obtain them as being accomplished”.It implies measurement of accomplishment against the standards and correction of deviation if
+        <h1 style="color:orange;">It implies measurement of accomplishment against the standards and correction of
+            deviation if
+            any to ensure achievement of organisational goals. The purpose of controlling is to ensure that
+            everything occurs in conformities with the standards. An efficient system of control helps to
+            predict deviations before they actually occur.. According to Koontz & O’Donell “Controlling is
+            the measurement & correction of performance activities of subordinates in order to make sure
+            that the enterprise objectives and plans desired to obtain them as being accomplished”.It implies
+            measurement of accomplishment against the standards and correction of deviation if
         </h1>
     </div>
+    <div style="color:brown" class="ex">
+        <h1>my name is <span>Hari Eluru</span> done</h1>
+    </div>
+    <div>
+        <h1 class="h1">Margins</h1>
+        <h1 style="margin:50px">Nature</h1>
+        <h1 style="margin:50px 90px 20px 10px;">Sigle line margin</h1>
+        <h1 class="margin">margin doesn't work on inline and blockline<br>
+            and necessary to five width if not takes parent width
+        </h1>
+    </div>
+    <div>
+        <h1 class="h1" style="padding:200px;">Padding look like This</h1>
+    </div>
+    <div style="border-style:dashed;border-color:red">
+        <h1 class="h1">box-sizing:border-box</h1>
+        <h1 style="width:300px; background-color:grey;padding: 100px;">300px width(width changes with respect to
+            padding)</h1>
+        <div class="border-box">
+            <h1>border box it is also 300px width(it does not changes)</h1>
+        </div>
+        <h1 class="h1">see the difference of two boxes</h1>
+    </div>
+
 </body>
 
 </html>
